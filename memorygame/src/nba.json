@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "image": "allen.jpg"
+    },
+    {
+      "id": 2,
+      "image": "carmelo.jpg"    
+    },
+    {
+      "id": 3,
+      "image": "chris.jpg"
+    },
+    {
+      "id": 4,
+      "image": "james.jpg" 
+    },
+    {
+      "id": 5,
+      "image": "kevin.jpg"
+    },
+    {
+      "id": 6,
+      "image": "kobe.jpg"
+    },
+    {
+      "id": 7,
+      "image": "kyrie.jpg"
+    },
+    {
+      "id": 8,
+      "image": "lebron.jpg"
+    },
+    {
+      "id": 9,
+      "image": "magic.jpg"
+    },
+    {
+      "id": 10,
+      "image": "michael.jpg"
+    },
+    {
+      "id": 11,
+      "image": "russell.jpg"
+    },
+    {
+      "id": 12,
+      "image": "stephen.jpg"
+    }
+  ]
