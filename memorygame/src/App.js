@@ -15,13 +15,13 @@ class App extends Component {
     score: 0
   };
 
-//when you click on a card ... the nba is taken out of the array
+//when you click on a card ... the player is taken out of the array
   imageClick = event => {
     const currentNba = event.target.alt;
     const NbaAlreadyClicked =
       this.state.clickedNba.indexOf(currentNba) > -1;
 
-//if you click on a fish that has already been selected, the game is reset and cards reordered
+//if you click on a player that has already been selected, the game is reset and cards reordered
     if (NbaAlreadyClicked) {
       this.setState({
         nba: this.state.nba.sort(function(a, b) {
@@ -32,7 +32,7 @@ class App extends Component {
       });
         alert("You lose. Play again?");
 
-//if you click on an available fish, your score is increased and cards reordered
+//if you click on an available player, your score is increased and cards reordered
     } else {
       this.setState(
         {
@@ -44,7 +44,7 @@ class App extends Component {
           ),
           score: this.state.score + 1
         },
-//if you get all 12 players corrent you get a congrats message and the game resets        
+//if you get all 12 players correct you get a congrats message and the game resets        
         () => {
           if (this.state.score === 12) {
             alert("Yay! You Win!");
